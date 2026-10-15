@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.env
+
+# Generated datasets, reports, and model checkpoints
+data/
+artifacts/
+checkpoints/
+outputs/
+*.safetensors
+pytorch_model*.bin
+*.pt
+*.pth
+
+# Local model/download caches
+.cache/
+.huggingface/

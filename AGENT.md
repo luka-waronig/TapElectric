@@ -1,8 +1,5 @@
-Exported conversation with Codex:
+Conversation with Codex:
 
-# Plan QR scan training service
-
-> For the purposes of a technical interview assessment, here I've created a new folder in which we will be building out a  reference application repo for the task that I'm about to explain to you. I want to first discuss and plan the layout of the repo structure and implementation, and then I will let you code it. Here is the TASK: In the Tap Electric app there is a feature called “scan a charger”. When you click this button in our app, your phone camera opens in the app. You point the camera at the QR sticker and our app will capture this. This QR sticker also contains some IDs, so with the QR sticker, the location of the EV-driver, and the other information of this sticker, we are normally able to find the right charger for the customer. However, there are sometimes issues, like the camera not getting a sharp image, too dark, too light, the sticker is vading etc. Currently we can’t help the driver in those cases.
 >
 > We need to create a service that can be used to train a model for the improvement of the scanning of the QR stickers. It should contain the following:
 >

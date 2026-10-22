@@ -1,4 +1,4 @@
-# Tap Electric - charger scan service
+# Tap Electric - EV charger scan service
 
 A compact reference implementation for collecting failed EV-charger QR scans, building labeled
 datasets, fine-tuning an image-restoration model, and measuring whether restoration improves exact
